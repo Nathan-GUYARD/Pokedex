@@ -1,0 +1,202 @@
+# _config.zmwsc
+# ZazouMiniWebServer configuration file
+# http://www.zmws.com/
+# 
+# You can use quotes for values containing spaces
+# \ and " must be escaped (use \\ and \" for \ and ")
+
+################
+### Handlers ###
+################
+
+# Use Handler context to specify the path to an handler module
+# for a given file extension (over than php, this is done by default ...)
+# Handler:bat="c:\\winnt\\system32\\cmd.exe /C"
+# Handler:tcl="ZazouTcl\\bin\\tclsh.exe"                          # For use with ZazouTcl
+# Handler:asp="Perl\\bin\\perl.exe Perl\\bin\\asp-perl"           # For use with Perl Asp
+# Handler:pl="Perl\\bin\\perl.exe"                                # For use with Perl
+# Handler:custom="c:\\MyHandler\\MyHandlerProg.exe"               # For custom handlers
+# Handler:sr="Rebol\\rebol031.exe -c"                             # For use with Rebol (more secure)
+# Handler:r="Rebol\\rebol031.exe -cs"                             # For use with Rebol
+# Handler:rhtml="Rebol\\rebol031.exe -cs Rebol\\magic310.cgi"     # For use with Magic! (Rebol Server Pages)
+
+# Use these with caution
+# Handler:bat=""                                                  # Empty handler .bat will be executed (>=1.0.0-rc4)
+# Handler:exe=""                                                  # Empty handler .exe will be executed (>=1.0.0-rc4)
+
+#########################
+### ZMWSSAPI Handlers ###
+#########################
+
+# Export a function called ZMWSSAPIFun1 in your program linked to the ZMWS Dll
+# Uncomment this line to get ZMWSSAPIFun1 called for all requests to .zmwsext
+# files
+# ZMWSSAPIHandler:zmwsext="ZMWSSAPIFun1"                               
+
+##################
+### Mime Types ###
+##################
+
+# Change the line below to override default mime type
+# MimeType:ZMWSMIMEDEFAULT=application/octet-stream
+
+# Change the line below to override Mime Type used
+# when serving a file with no extension
+# MimeType:=text/plain
+
+# Add as many other Mime Type as you like
+# MimeType:ps=application/postscript
+# MimeType:eps=application/postscript
+# MimeType:prc=application/x-pilot
+
+# MimeType:php="text/html; charset=UTF-8" 
+# MimeType:html="text/html; charset=iso-8859-15" 
+
+########################
+### Main Host config ###
+########################
+
+# If a request does not match any Virtual Host it is served by the Main Host
+
+# Hide window if set to true
+# Main:hide=true
+
+# Allow stopping the server by browsing the fake url /_stopServer.zmwsc if set to true.
+# The file doesn't need to exist.
+# Main:stop=false
+
+# When Server is stopped, kill active and waiting connections if set to true
+# (is: Instant Stop)
+# Main:dropclients=false
+
+# If stop AND closebrowser are set to true, browsing the fake url /_stopServer.zmwsc
+# sends a javascript to the browser to close it.
+# Main:closebrowser=false
+
+# Browse the website with the user's default browser after server start
+# Main:browse=false
+
+# Disable/Enable Logging
+# Main:nolog=false
+
+# Disable/Enable Reverse DNS queries
+# Main:norv=true
+
+# Disable/Enable Directory indexing
+# Main:noindex=false
+
+# Pages to use as directory index
+# Default is index.*
+# Main:startpage=index.php;index.html;default.html;index.*
+
+# Allow clients with IP matching those below only
+# Leave commented to allow from all
+# Main:allowfrom=127.;192.168.1.;213.186.46.111
+
+# What interface/network to bind to
+# Leave commented to bind to all interfaces
+# Main:bind=127.0.0.1
+
+# Configure server signature
+# Can be all for full signature, noversion to hide version or off for none
+# Main:pbtoken=off
+
+# Disable/Enable Quiet Mode
+# Main:quiet=true
+
+# ZazouMiniWebServer will listen to this port
+# Main:port=8080
+
+# ZazouMiniWebServer won't try ports 8080 to 8089 if unique-port is set to true
+# Main:unique-port=false
+
+# Max client connections
+# Main:mc=1000
+
+# Default charset
+# Main:defcharset=iso-8859-1
+
+# Paths
+
+# Path to php-cgi.exe (php5) or php.exe (php4)
+# This can be a relative or absolute path
+# Main:phppath=php5
+Main:phppath=php7
+
+# The Document Root, where the website files are located
+# Main:webdir=_web.zmwsc
+
+# ZazouMiniWebServer will log requests here (default is _logs.zmwsc)
+# Main:logsdir=logs
+
+######################
+### Per Url Config ###
+### Main & VHosts  ###
+######################
+
+# Alias
+# Alias the beginning of an url to a directory path
+# Don't forget the trailing slashes
+# Main:diralias:/sys/=c:/winnt/system32/
+
+# PerUrl Handlers
+# PerUrl:/php4/:Handler:php="php/php.exe -f"
+# PerUrl:/php5/:Handler:php="php5/php-cgi.exe -f"
+
+#########################
+### cgi-bin behaviour ###
+#########################
+
+# PerUrl:/cgi-bin/:Handler:exe=""
+
+#####################
+### Virtual Hosts ###
+#####################
+
+# The Document Root, where the virtual host files are located
+# (absolute or relative to server dir)
+# default is _vhosts.zmwsc/domain relative to main server's webdir
+# VirtualHost:mycompany.com:webdir=_web.zmwsc/_vhosts.zmwsc/mycompany.com
+
+# logs directory (absolute or relative to server dir)
+# VirtualHost:mycompany.com:logsdir=logs
+
+# Disable/Enable Directory indexing
+# VirtualHost:mycompany.com:noindex=0
+
+# Disable/Enable Reverse DNS queries
+# VirtualHost:mycompany.com:norv=0
+
+# Default charset
+# VirtualHost:mycompany.com:defcharset=iso-8859-1
+
+# Traffic limit
+# Logging MUST be enable for traffic limits to work since time and traffic are stored
+# in a log file for each host.
+# maxKBytes is the number of kilobytes that can be sent every maxKBytesDTime seconds
+# maxKBytesDTime is a number of seconds
+# 1 day is 86400 seconds
+# 1 week is 604800 seconds
+# 1 month (30days) is 2592000 seconds
+# Setting maxKBytesDTime to 0 disables traffic limit checking
+# Setting maxKBytes to 0 and maxKBytesDTime to a non zero value denies access to the host
+# (this is the default)
+# VirtualHost:mycompany.com:maxKBytes=0
+# VirtualHost:mycompany.com:maxKBytesDTime=0
+
+# You can set as many aliases to this VHost domain as you want
+# VirtualHost:mycompany.com:alias=www.mycompany.com
+# VirtualHost:mycompany.com:alias=www2.mycompany.com
+
+# allowfrom can be used in a VHost context to override default authorization
+# Here we allow everyone to visit mycompany.com website.
+# VirtualHost:mycompany.com:allowfrom=all
+# But we can use it to restrict the authorization too
+# VirtualHost:mycompany.com:allowfrom=127.0.0.1
+
+# VHost Handlers
+# VirtualHost:localhost:Handler:php="php/php.exe"
+# VirtualHost:127.0.0.1:Handler:php="php5/php-cgi.exe"
+
+# VH Aliases
+# VirtualHost:127.0.0.1:diralias:/build/=Release/
