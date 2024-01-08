@@ -1,0 +1,4 @@
+[Launch] 
+ExecuteFile=FramaRoot\Apps\ZMWSPortable\ZMWSPortable.exe
+ExecuteDirectory=FramaRoot\Apps\ZMWSPortable
+ExecuteParameters=
