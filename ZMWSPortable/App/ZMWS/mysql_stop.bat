@@ -1,1 +1,0 @@
-@%CD%\mySQL\bin\mysqladmin shutdown -uroot -peric
