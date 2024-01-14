@@ -14,3 +14,4 @@ Le premier problème que j'ai rencontrer c'était comment récupérer les inform
 Puisque j'étais en avance je me suis amusé à faire une animation de démarage des transition, et plein de petit détails.
 
 Après ce projet j'ai compris qu'il fallait bien structurer sont code, j'ai aussi appris à certaines fonctionnalité de pygame. Tout ce que j'avais envie de faire après l'avoir fini c'était de tout recommencer pour le refaire mais en mieux.
+test
