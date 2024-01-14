@@ -1,0 +1,15 @@
+2022-12-13T11:12:58.190079Z 0 [System] [MY-013169] [Server] E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld (mysqld 8.0.21) initializing of server in progress as process 836
+2022-12-13T11:12:58.315790Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2022-12-13T11:12:58.322813Z 0 [ERROR] [MY-013236] [Server] The designated data directory E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\data\ is unusable. You can remove all files that the server added to it.
+2022-12-13T11:12:58.326456Z 0 [ERROR] [MY-010119] [Server] Aborting
+2022-12-13T11:12:58.327349Z 0 [System] [MY-010910] [Server] E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2022-12-13T11:12:59.522805Z 0 [System] [MY-013169] [Server] E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld.exe (mysqld 8.0.21) initializing of server in progress as process 7124
+2022-12-13T11:12:59.528377Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2022-12-13T11:12:59.535983Z 0 [ERROR] [MY-013236] [Server] The designated data directory E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\data\ is unusable. You can remove all files that the server added to it.
+2022-12-13T11:12:59.539614Z 0 [ERROR] [MY-010119] [Server] Aborting
+2022-12-13T11:12:59.540315Z 0 [System] [MY-010910] [Server] E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld.exe: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2022-12-13T11:13:54.459402Z 0 [System] [MY-013169] [Server] E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld (mysqld 8.0.21) initializing of server in progress as process 8232
+2022-12-13T11:13:54.464725Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2022-12-13T11:13:54.469601Z 0 [ERROR] [MY-013236] [Server] The designated data directory E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\data\ is unusable. You can remove all files that the server added to it.
+2022-12-13T11:13:54.473761Z 0 [ERROR] [MY-010119] [Server] Aborting
+2022-12-13T11:13:54.474457Z 0 [System] [MY-010910] [Server] E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.

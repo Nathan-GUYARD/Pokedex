@@ -1,0 +1,20 @@
+2022-10-19T07:55:51.551962Z 0 [System] [MY-013169] [Server] F:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld (mysqld 8.0.21) initializing of server in progress as process 11544
+2022-10-19T07:55:51.679185Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2022-10-19T07:55:51.734091Z 0 [ERROR] [MY-013236] [Server] The designated data directory F:\logiciel\ZMWSPortable\App\ZMWS\mySQL\data\ is unusable. You can remove all files that the server added to it.
+2022-10-19T07:55:51.737730Z 0 [ERROR] [MY-010119] [Server] Aborting
+2022-10-19T07:55:51.738581Z 0 [System] [MY-010910] [Server] F:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2022-10-19T07:55:53.202268Z 0 [System] [MY-013169] [Server] F:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld.exe (mysqld 8.0.21) initializing of server in progress as process 10548
+2022-10-19T07:55:53.206734Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2022-10-19T07:55:53.210413Z 0 [ERROR] [MY-013236] [Server] The designated data directory F:\logiciel\ZMWSPortable\App\ZMWS\mySQL\data\ is unusable. You can remove all files that the server added to it.
+2022-10-19T07:55:53.214738Z 0 [ERROR] [MY-010119] [Server] Aborting
+2022-10-19T07:55:53.215598Z 0 [System] [MY-010910] [Server] F:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld.exe: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2022-11-30T09:21:17.897722Z 0 [System] [MY-013169] [Server] E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld (mysqld 8.0.21) initializing of server in progress as process 8868
+2022-11-30T09:21:17.959664Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2022-11-30T09:21:17.968359Z 0 [ERROR] [MY-013236] [Server] The designated data directory E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\data\ is unusable. You can remove all files that the server added to it.
+2022-11-30T09:21:17.973189Z 0 [ERROR] [MY-010119] [Server] Aborting
+2022-11-30T09:21:17.974100Z 0 [System] [MY-010910] [Server] E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2022-11-30T09:21:19.539192Z 0 [System] [MY-013169] [Server] E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld.exe (mysqld 8.0.21) initializing of server in progress as process 7084
+2022-11-30T09:21:19.544518Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2022-11-30T09:21:19.547510Z 0 [ERROR] [MY-013236] [Server] The designated data directory E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\data\ is unusable. You can remove all files that the server added to it.
+2022-11-30T09:21:19.551340Z 0 [ERROR] [MY-010119] [Server] Aborting
+2022-11-30T09:21:19.552281Z 0 [System] [MY-010910] [Server] E:\logiciel\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld.exe: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.

@@ -1,0 +1,10 @@
+2023-05-09T08:46:25.522543Z 0 [System] [MY-013169] [Server] E:\TG1\NSI\Pokedex\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld.exe (mysqld 8.0.21) initializing of server in progress as process 5332
+2023-05-09T08:46:25.697278Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2023-05-09T08:46:25.735123Z 0 [ERROR] [MY-013236] [Server] The designated data directory E:\TG1\NSI\Pokedex\ZMWSPortable\App\ZMWS\mySQL\data\ is unusable. You can remove all files that the server added to it.
+2023-05-09T08:46:25.851000Z 0 [ERROR] [MY-010119] [Server] Aborting
+2023-05-09T08:46:25.961224Z 0 [System] [MY-010910] [Server] E:\TG1\NSI\Pokedex\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld.exe: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.
+2023-05-09T08:48:34.684765Z 0 [System] [MY-013169] [Server] E:\TG1\NSI\Pokedex\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld.exe (mysqld 8.0.21) initializing of server in progress as process 5008
+2023-05-09T08:48:34.688547Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2023-05-09T08:48:34.690740Z 0 [ERROR] [MY-013236] [Server] The designated data directory E:\TG1\NSI\Pokedex\ZMWSPortable\App\ZMWS\mySQL\data\ is unusable. You can remove all files that the server added to it.
+2023-05-09T08:48:34.695353Z 0 [ERROR] [MY-010119] [Server] Aborting
+2023-05-09T08:48:34.695945Z 0 [System] [MY-010910] [Server] E:\TG1\NSI\Pokedex\ZMWSPortable\App\ZMWS\mySQL\bin\mysqld.exe: Shutdown complete (mysqld 8.0.21)  MySQL Community Server - GPL.

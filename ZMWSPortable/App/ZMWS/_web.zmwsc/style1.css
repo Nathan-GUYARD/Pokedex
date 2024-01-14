@@ -1,0 +1,305 @@
+/*---------------------------Feuillet Css - ZazouMiniWebServer ---------------------------------------*/
+/*________Classes Generales____________*/
+.hidden
+{
+display:none;
+}
+
+body
+{
+margin:0;
+padding:0;
+font:100% Tahoma, sans_serif;
+}
+
+strong{
+font-weight: normal;
+color:#DFFC03;/*#6699CC;
+text-decoration: underline; */
+font-size:100%;
+}
+
+p{
+font-weight: normal;
+color:#FFCC33;/*#6699CC;*/
+font-size:80%;
+padding-left:9px;
+padding-right: 9 px;
+/*margin-left:302px!important;
+margin-left:322px;
+padding-right:30px;
+*/}
+
+h1
+{
+background:#435500;
+margin:0;
+padding:0;
+color: #FBB548;
+font-weight:bold ;
+font-size:200%;
+margin-top:4px;
+letter-spacing:1px;
+margin-bottom:4px;
+padding-left:9px;
+
+}
+
+h3
+{
+margin:0;
+padding:0;
+color:#FBB548;
+font-weight:bold ;
+font-size:90%;
+letter-spacing:1px;
+padding-top:5px;
+padding-bottom:2px;
+padding-left:9px;
+}
+
+h2
+{
+margin:0;
+padding:0;
+color:#97D16C;
+font-size:110%;
+font-weight:normal;
+letter-spacing:1px;
+}
+
+#header
+{
+background:#4383CF;
+height:126px;
+}
+
+a
+{
+   margin-left:25%;
+}
+
+.nav
+{
+position:relative;
+display:block;
+color:#FFCC33;
+font-weight:normal;
+top:0px;
+background:#5191CB url(images/bg_nav.jpg) no-repeat top right;
+padding:0px;
+padding-left:0px;
+border-bottom:1px solid #5089BD;
+}
+
+#header_droit
+{
+width:65%;
+display:block;
+text-align:center;
+float:right;
+height:111px;
+padding-top:15px;
+}
+#pub
+{
+width:468px;
+height:60px;
+background:#4383CF url(images/banniere_fixe_zazouminiwebserver.jpg);
+margin-left:auto;
+margin-right:auto;
+display:block;
+}
+#menu_general
+{
+clear:both;
+margin:0;
+padding:0;
+display:block;
+list-style-type:none;
+position:relative;
+top:20px;
+
+}
+#menu_general li
+{
+list-style-type:none;
+display:inline;
+padding-top:8px;
+padding-bottom:5px;
+
+}
+#menu_general li a 
+{
+color:#FFCC00;
+font-weight:bold;
+padding-left:29px;
+}
+#menu_general li a:hover
+{
+text-decoration:overline;
+}
+#menu_general #link_accueil
+{
+
+background:#4383CF url(images/link_accueil.jpg) no-repeat;
+}
+#menu_general #link_doc
+{
+background:#4383CF url(images/link_doc.jpg) no-repeat;
+}
+#menu_general #link_dl
+{
+background:#4383CF url(images/link_dl.jpg) no-repeat;
+}
+#menu_general #link_forum
+{
+background:#4383CF url(images/link_forum.jpg) no-repeat;
+}
+#menu_habillage
+{
+clear:both;
+background:#fff url(images/menu_habillage.jpg) repeat-x;
+height:30px;
+}
+#contenu
+{
+border-top:1px solid #DEDEDE;
+background:#fff url(images/bg_contenu.jpg) repeat-x;
+margin-top:30px;
+min-height:500px;
+padding-bottom:50px;
+}
+#cont_menu_sub
+{
+margin:0;
+padding:0;
+list-style-type:none;
+width:246px;
+margin-left:2%;
+margin-right:2%;
+position:relative;
+
+left:0!important;
+
+float:left
+}
+.menu_sub
+{
+z-index: 5;
+border-left:1px solid #DEDEDE;
+border-right:1px solid #DEDEDE;
+border-bottom:1px solid #DEDEDE;
+margin: 0 0 10px 0;
+padding:0;
+width:242px;
+background:#fff url(images/bg_menu_sub.jpg) repeat-x;
+list-style-type:none;
+padding:1px;
+position:relative;
+top:-32px;
+}
+
+.menu_sub li
+{
+
+margin:2px;
+padding:2px 5px 2px 5px;
+background:#FCFCFC url(images/bg_links_sub.jpg);
+border:1px solid #EBEBEB;
+
+border-bottom:1px solid #DEDEDE;
+}
+.menu_sub a 
+{
+
+color:#4383CF;
+display:block;
+text-decoration:none;
+padding-left:20px;
+background:#FCFCFC url(images/puce.gif) no-repeat top left;
+}
+.menu_sub a:hover
+{
+display:block;
+background:#FCFCFC url(images/puce_roll.gif) no-repeat top left;
+}
+.menu_sub .linker
+{
+color:#4383CF;
+display:block;
+text-decoration:underline;
+}
+.menu_sub .linker_desc
+{
+padding-top:5px;
+font-size:90%;
+color:#8BC62E;
+display:block;
+}
+#dr
+{
+z-index:1;
+position:relative;
+top:10px;
+}
+
+
+
+#cont_recherche
+{
+padding:0;
+margin:0;
+padding-right:2%;
+text-align:right;
+}
+label
+{
+color:#80A4CD;
+font-weight:bold;
+padding-right:5px;
+}
+input
+{
+border:0px solid #fff;
+border:1px solid #DEDEDE;
+}
+
+
+.lister
+{
+display:block;
+color:#6699CC;
+padding-left:320px;
+
+list-style-image:url(images/puce_listing.jpg);
+}
+.lister li
+{
+padding-top:2px;
+}
+.lister a
+{
+padding-left:0!important;
+padding-left:5px;
+color:#6699CC;
+}
+.lister a:hover
+{
+color:#93BCEA;
+text-decoration:none;
+}
+#dr a 
+{
+padding:3px;
+margin-top:5px;
+padding-left:25px;
+color:#6699CC;
+background:url(images/puce_listing.jpg) no-repeat;
+}
+#dr a:hover
+{
+color:#93BCEA;
+text-decoration:none;
+}
+

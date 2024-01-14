@@ -1,0 +1,368 @@
+/*---------------------------Feuillet Css - ZazouMiniWebServer ---------------------------------------*/
+/*________Classes Generales____________*/
+.hidden
+{
+display:none;
+}
+
+body
+{
+margin:0;
+padding:0;
+font:75% Tahoma, sans_serif;
+}
+#header
+{
+
+background:#4383CF;
+height:126px;
+}
+#logo
+{
+
+width:249px;
+
+height:126px;
+background: url(images/logo_zazouminiwebserver2.jpg) no-repeat;
+margin-left:2%;
+
+float:left;
+
+}
+#header_droit
+{
+width:65%;
+display:block;
+text-align:center;
+float:right;
+height:111px;
+padding-top:15px;
+}
+#pub
+{
+width:468px;
+height:60px;
+background:#4383CF url(images/banniere_fixe_zazouminiwebserver.jpg);
+margin-left:auto;
+margin-right:auto;
+display:block;
+}
+#menu_general
+{
+clear:both;
+margin:0;
+padding:0;
+display:block;
+list-style-type:none;
+position:relative;
+top:20px;
+
+}
+#menu_general li
+{
+list-style-type:none;
+display:inline;
+padding-top:8px;
+padding-bottom:5px;
+
+}
+#menu_general li a 
+{
+color:#FFCC00;
+font-weight:bold;
+padding-left:29px;
+}
+#menu_general li a:hover
+{
+text-decoration:overline;
+}
+#menu_general #link_accueil
+{
+
+background:#4383CF url(images/link_accueil.jpg) no-repeat;
+}
+#menu_general #link_doc
+{
+background:#4383CF url(images/link_doc.jpg) no-repeat;
+}
+#menu_general #link_dl
+{
+background:#4383CF url(images/link_dl.jpg) no-repeat;
+}
+#menu_general #link_forum
+{
+background:#4383CF url(images/link_forum.jpg) no-repeat;
+}
+#menu_habillage
+{
+clear:both;
+background:#fff url(images/menu_habillage.jpg) repeat-x;
+height:30px;
+}
+#contenu
+{
+border-top:1px solid #DEDEDE;
+background:#fff url(images/bg_contenu.jpg) repeat-x;
+margin-top:30px;
+min-height:500px;
+padding-bottom:50px;
+}
+#cont_menu_sub
+{
+margin:0;
+padding:0;
+list-style-type:none;
+width:246px;
+margin-left:2%;
+margin-right:2%;
+position:relative;
+
+left:0!important;
+
+float:left
+}
+.menu_sub
+{
+z-index: 5;
+border-left:1px solid #DEDEDE;
+border-right:1px solid #DEDEDE;
+border-bottom:1px solid #DEDEDE;
+margin: 0 0 10px 0;
+padding:0;
+width:242px;
+background:#fff url(images/bg_menu_sub.jpg) repeat-x;
+list-style-type:none;
+padding:1px;
+position:relative;
+top:-32px;
+}
+.nav
+{
+position:relative;
+display:block;
+color:#FFCC33;
+font-weight:bold;
+top:-32px;
+background:#5191CB url(images/bg_nav.jpg) no-repeat top right;
+padding:7px;
+padding-left:9px;
+border-bottom:1px solid #5089BD;
+}
+.menu_sub li
+{
+
+margin:2px;
+padding:2px 5px 2px 5px;
+background:#FCFCFC url(images/bg_links_sub.jpg);
+border:1px solid #EBEBEB;
+
+border-bottom:1px solid #DEDEDE;
+}
+.menu_sub a 
+{
+
+color:#4383CF;
+display:block;
+text-decoration:none;
+padding-left:20px;
+background:#FCFCFC url(images/puce.gif) no-repeat top left;
+}
+.menu_sub a:hover
+{
+display:block;
+background:#FCFCFC url(images/puce_roll.gif) no-repeat top left;
+}
+.menu_sub .linker
+{
+color:#4383CF;
+display:block;
+text-decoration:underline;
+}
+.menu_sub .linker_desc
+{
+padding-top:5px;
+font-size:90%;
+color:#8BC62E;
+display:block;
+}
+#dr
+{
+z-index:1;
+position:relative;
+top:10px;
+}
+h1
+{
+margin:0;
+padding:0;
+color:#FBB548;
+font-weight:normal;
+font-size:140%;
+margin-top:2px;
+letter-spacing:1px;
+margin-bottom:35px;
+}
+h2
+{
+margin:0;
+padding:0;
+color:#97D16C;
+font-size:120%;
+font-weight:normal;
+letter-spacing:1px;
+background: url(images/puce_h2.jpg) no-repeat left;
+margin-left:280px!important;
+margin-left:300px;
+padding-bottom:4px!important;
+padding-bottom:8px;
+padding-left:22px;
+}
+
+#cont_recherche
+{
+padding:0;
+margin:0;
+padding-right:2%;
+text-align:right;
+}
+label
+{
+color:#80A4CD;
+font-weight:bold;
+padding-right:5px;
+}
+input
+{
+border:0px solid #fff;
+border:1px solid #DEDEDE;
+}
+p
+{
+
+color:#6699CC;
+margin-left:302px!important;
+margin-left:322px;
+padding-right:30px;
+}
+.lister
+{
+display:block;
+color:#6699CC;
+padding-left:320px;
+
+list-style-image:url(images/puce_listing.jpg);
+}
+.lister li
+{
+padding-top:2px;
+}
+.lister a
+{
+padding-left:0!important;
+padding-left:5px;
+color:#6699CC;
+}
+.lister a:hover
+{
+color:#93BCEA;
+text-decoration:none;
+}
+#dr a 
+{
+padding:3px;
+margin-top:5px;
+padding-left:25px;
+color:#6699CC;
+background:url(images/puce_listing.jpg) no-repeat;
+}
+#dr a:hover
+{
+color:#93BCEA;
+text-decoration:none;
+}
+#dr .fichiers 
+{
+padding:3px;
+margin-top:5px;
+padding-left:25px;
+color:#6699CC;
+background:url(images/dir.png) no-repeat;
+}
+#dr .demarrer 
+{
+padding:3px;
+margin-top:5px;
+padding-left:25px;
+color:#6699CC;
+background:url(images/demarrer.jpg) no-repeat;
+}
+#dr .arreter
+{
+padding:3px;
+margin-top:5px;
+padding-left:25px;
+color:#6699CC;
+background:url(images/arreter.jpg) no-repeat;
+}
+.lister a span
+{
+display:block;
+}
+
+h3
+{
+margin:0;
+padding:0;
+color:#6699CC;
+font-size:100%;
+border-bottom:1px solid #CCCCCC;
+letter-spacing:1px;
+background: url(images/puce_h3_spip.jpg) no-repeat left;
+margin-left:302px!important;
+margin-left:322px;
+padding-top:5px;
+padding-left:30px;
+
+padding-bottom:2px;
+}
+.descriptif
+{
+margin:0;
+padding:0;
+margin-left:302px!important;
+margin-left:322px;
+color:#CCCCCC;
+font-size:90%;
+}
+#chapeau_accueil
+{
+font-size:100%;
+border:1px solid #EBEBEB;
+padding:2%;
+margin-right:2%;
+padding-left:120px;
+background:url(images/installed.jpg)no-repeat;
+}
+.chapeau
+{
+font-size:100%;
+border:1px solid #EBEBEB;
+padding:2%;
+margin-right:2%;
+
+
+}
+.spip_documents
+{
+margin-left:302px!important;
+margin-left:322px;
+}
+.spip_doc_titre
+{
+color:#D9D9D9;
+font-size:95%;
+font-weight:normal;
+font-style:italic;
+padding-top:5px;
+padding-bottom:20px;
+}
